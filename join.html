@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form
+        {
+            color: rgb(54, 53, 53);
+            background-image: url("gym3.jpg");
+            background-color: whitesmoke;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 210vh;
+            height: 100vh;
+            font-size: large;
+            text-align: center;
+            
+        }
+        .inputBox
+        {
+            position: relative;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            
+            font-size: x-large ;
+        }
+        h1
+        {
+            text-align: center;
+            color: rgb(89, 88, 88);
+            padding: 40px;
+            
+            font-style:bold;
+        }
+        #f1 form{
+            background-color:white;
+            margin-right: 30%;
+            margin-left: 30%;
+            border: 2px solid black;
+            border-radius: 10px;
+         
+        }
+    </style>
+</head>
+<body>
+    <div class="form" id="f1">
+        <form>
+            <h1><u>Join Us</u></h1>
+            <div class="inputBox">
+                First Name: <input type="text" placeholder="Enter your first name">
+                Last Name: <input type="text" placeholder="Enter your last name">
+            </div> 
+            <div class="inputBox">
+                Contact number: <input type="text" placeholder="Enter your number">
+            </div>
+            <div class="inputBox">
+                Address: <input text="text" placeholder="Enter your address">
+            </div>
+            <div class="inputBox">
+                Date of Birth: <input type="text" placeholder="DD/MM/YYYY">
+
+            </div>
+            <div class="inputBox">
+                Email Id: <input type="text" placeholder="Enter your email address">
+                Password: <input type="password" placeholder="Enter your password">
+
+            </div>
+            <div class="inputBox">
+                Select gender: <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Others<br>
+                
+            </div>
+            <div class="inputBox">
+                <button type="submit" onclick="alert('Your response have been submitted')">SUBMIT</button>
+            </div>
+
+            
+        </form>
+    </div>
+    
+</body>
+</html>
